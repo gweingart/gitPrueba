@@ -45,7 +45,7 @@ public class Metodos {
         sec.close();
         return false;
     }
-
+      /*Este comentario es para probar el tema de de Git de guardar los cambios*/
     public static Auto buscarAuto(int iid) {
         SessionFactory sessionFact = new Configuration().configure().buildSessionFactory();
 
